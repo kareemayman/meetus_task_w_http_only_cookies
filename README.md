@@ -19,7 +19,6 @@ A modern, responsive login form built for MeetUs company. This project demonstra
 - **CSS** – Custom, responsive styling.
 - **Redux Toolkit** – State management for authentication and user data.
 - **React Router** – Client-side routing and protected routes.
-- **localStorage** – Persists authentication tokens and user sessions.
 - **react-hot-toast** – Toast notifications for user feedback.
 - **Figma** – UI/UX design reference.
 - **Node.js & Express** – Backend-for-Frontend (BFF) server for HTTP-only cookies.
