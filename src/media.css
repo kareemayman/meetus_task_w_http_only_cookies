@@ -1,0 +1,105 @@
+@media (min-width: 768px) {
+  .container, .background-container {
+   width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container, .background-container {
+   width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .background-container {
+   width: 1170px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .background-container {
+   width: 1440px;
+  } 
+  .container {
+    padding-inline: 0;
+    width: 1188px;
+  }
+}
+
+/* Responsive adjustments for blobs and card */
+@media (max-width: 600px) {
+  .dashboard-card {
+    max-width: 100%;
+    padding: 16px 8px;
+    border-radius: 8px;
+  }
+  .dashboard-title {
+    font-size: 1.2rem;
+  }
+  .dashboard-main-title {
+    font-size: 1.4rem;
+  }
+  .dashboard-info {
+    font-size: 0.95rem;
+    gap: 8px;
+  }
+  .db1, .db2, .db3, .db4 {
+    filter: blur(80px);
+    opacity: 0.4;
+  }
+}
+
+@media (max-width: 1440px) {
+    .login .logo img {
+      max-width: 100% !important;
+      translate: none !important;
+    }
+}
+
+@media (max-width: 1200px) {
+  .login .container {
+    justify-content: center;
+    gap: 0;
+
+    .logo {
+      img:first-of-type {
+        top: 100px;
+      }
+      img:last-of-type {
+        top: 80%;
+      }
+
+      img {
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        position: absolute;
+        opacity: 0.2;
+
+        &:first-of-type {
+          left: 55% !important;
+        }
+      }
+    }
+
+    form {
+      max-width: 100%;
+      min-width: initial;
+      padding-top: 0;
+    }
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+  .login .container {
+    padding-top: 0;
+
+    .logo img {
+      width: 50%;
+
+      &:last-of-type {
+        top: 91%;
+      }
+    }
+  }
+}
